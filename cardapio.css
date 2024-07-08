@@ -1,21 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff8dc;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    height: 110vh;
+    background-image: url('./fundos/Design\ sem\ nome\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Fixa a imagem de fundo para que o conteúdo role sobre ela */
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
-.cardapio {
-    background-color: #fff;
+.menu {
+    position: absolute; /* Posição absoluta para fixar o menu */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para legibilidade */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000; /* Garante que o menu esteja acima da imagem de fundo */
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para o conteúdo */
     border: 2px solid #ff6600;
     border-radius: 10px;
     padding: 20px;
-    max-width: 500px;
+    max-width: 90%; /* Largura máxima para melhor responsividade */
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    box-sizing: border-box;
 }
 
 header h1 {
