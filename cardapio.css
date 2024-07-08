@@ -1,62 +1,47 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #d9534f;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    padding: 20px;
+    background-color: #fff8dc;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.menu-item {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.cardapio {
+    background-color: #fff;
+    border: 2px solid #ff6600;
+    border-radius: 10px;
     padding: 20px;
-    margin: 10px;
-    width: 300px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.menu-item h2 {
-    margin-top: 0;
-    color: #d9534f;
+header h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff6600;
+    text-shadow: 2px 2px #000;
 }
 
-button {
-    background-color: #d9534f;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+.menu, .bebidas {
+    margin-top: 20px;
 }
 
-button:hover {
-    background-color: #c9302c;
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ff6600;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #f8f9fa;
-    border-top: 1px solid #ccc;
+.price {
+    color: #ff0000;
+}
+
+footer p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff6600;
 }
