@@ -2,11 +2,11 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica', sans-serif;
     height: 110vh;
-    background-image: url('./fundos/Design\ sem\ nome\ \(1\).png');
+    background-image: url('./fundos/CARDAPIO.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; /* Fixa a imagem de fundo para que o conteúdo role sobre ela */
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
