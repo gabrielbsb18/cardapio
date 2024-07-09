@@ -7,6 +7,7 @@ body {
     background-position: center center;
     background-attachment: fixed; /* Fixa a imagem de fundo para que o conteúdo role sobre ela */
     background-size: cover;
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
