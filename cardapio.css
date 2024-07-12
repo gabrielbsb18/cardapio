@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica', sans-serif;
     height: 100vh;
-    background-image: url('./fundos/Heineken\ ....................\ \(1\).png');
+    background-image: url('./fundos/cardapio.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; /* Fixa a imagem de fundo para que o conteúdo role sobre ela */
